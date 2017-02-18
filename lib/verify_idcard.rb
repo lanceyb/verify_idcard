@@ -1,4 +1,4 @@
-require "verify_idcard/version"
+# require "verify_idcard/version"
 
 # module VerifyIdcard
 #   # Your code goes here...
