@@ -1,6 +1,6 @@
 module Aliyun
   module Verify
-    class Idcard
+    class Client
 
       VERIFY_URL = 'http://aliyunverifyidcard.haoservice.com/idcard/VerifyIdcardv2'
 
@@ -12,7 +12,7 @@ module Aliyun
         @app_code = app_code
       end
 
-      def verify
+      def verify_idcard
         http_call
       end
 

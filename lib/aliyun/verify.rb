@@ -1,4 +1,4 @@
-require 'aliyun/verify/idcard'
+require 'aliyun/verify/client'
 
 module Aliyun
   module Verify
