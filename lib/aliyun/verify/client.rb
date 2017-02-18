@@ -13,7 +13,7 @@ module Aliyun
       end
 
       def verify_idcard
-        http_call
+        OpenStruct.new(http_call)
       end
 
       def http_call
